@@ -1,3 +1,11 @@
+# GitHub
+.git
+.github
+
+# JetBrains
+.idea
+*.iml
+
 # Firebase build and deployment files
 /firebase-debug.log
 /firebase-debug.*.log
