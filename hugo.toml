@@ -1,0 +1,43 @@
+baseURL = '/'
+languageCode = 'en-us'
+title = 'Allergy & Asthma Clinic of Northwest Arkansas'
+theme = 'aacnwa'
+
+[params]
+  phone = '479.254.9777'
+  address = '1900 S. Walton Blvd, Bentonville, Arkansas 72712'
+  tagline = 'Improve Your Health & Quality of Life'
+  description = 'Board-certified allergy and asthma specialists serving Northwest Arkansas'
+  appointmentURL = '#contact'
+  patientPortalURL = 'https://healow.com'
+  payBillURL = '#'
+
+[menus]
+  [[menus.main]]
+    name = 'Home'
+    url = '/'
+    weight = 10
+  [[menus.main]]
+    name = 'Our Providers'
+    url = '#providers'
+    weight = 20
+  [[menus.main]]
+    name = 'Services'
+    url = '#services'
+    weight = 30
+  [[menus.main]]
+    name = 'Patient Education'
+    url = '#education'
+    weight = 40
+  [[menus.main]]
+    name = 'FAQ'
+    url = '#faq'
+    weight = 50
+  [[menus.main]]
+    name = 'Blog'
+    url = '#blog'
+    weight = 60
+  [[menus.main]]
+    name = 'Contact'
+    url = '#contact'
+    weight = 70

@@ -2,6 +2,11 @@
 .git
 .github
 
+# Hugo
+/public/
+/resources/
+.hugo_build.lock
+
 # JetBrains
 .idea
 *.iml

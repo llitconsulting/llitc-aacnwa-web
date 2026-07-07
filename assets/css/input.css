@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@source "../../themes/aacnwa/layouts/**/*.html";
+@source "../../content/**/*.md";
+
+@theme {
+  --color-primary: #1a4f7a;
+  --color-primary-dark: #123654;
+  --color-primary-light: #2a6fa8;
+  --color-secondary: #17a589;
+  --color-secondary-dark: #0e7a65;
+  --color-accent: #e8b84b;
+  --color-bg-light: #eef4fb;
+  --color-text: #2d3748;
+  --color-text-light: #718096;
+
+  --font-sans: 'Open Sans', ui-sans-serif, system-ui, sans-serif;
+  --font-heading: 'Raleway', ui-sans-serif, system-ui, sans-serif;
+}
